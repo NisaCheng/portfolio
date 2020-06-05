@@ -1,0 +1,239 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.46);
+  
+}
+
+li {
+  float: right;
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+li a {
+display: block;
+padding: 8px;
+text-decoration: none;
+color: white;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+  
+}
+
+li a:hover {
+  font-size: 150%;
+}
+
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#website {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.imageResize {
+width: 80%;
+height: auto;;
+}
+
+
+.hero-image {
+	background-image: url("image.png");
+	height: 100%;
+	background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  
+}
+
+button:focus {
+	outline: none;
+}
+
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  color: white;
+
+}
+
+
+
+.title {
+font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+    margin-top: 6%;
+    float: left;
+}
+
+
+#portrait {
+    width: 12%;
+    position: relative;
+    left: 5%;
+    border-radius: 100px;
+    border: #01090f 1px solid;
+}
+
+#aboutMe {
+line-height: 1.4;
+font-size: 20px;
+width: 60%;
+background-color: rgba(0,6,10,0.3);
+padding: 5px;
+border-radius: 3px;
+}
+
+#intro {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  clear: left;
+
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  
+}
+
+input:focus {
+ outline: none;
+}
+
+
+input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  
+}
+
+
+
+#workButton {
+	  margin: auto;
+    position: relative;
+    padding: 10px;
+    width: 15%;
+    font-family: 'Fjalla One',sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #1c5a73;
+    border: black 1px solid;
+    color: white;
+    border-radius: 1px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#workButton:hover {
+	background-color: #B29999;
+}
+
+
+#lbConnect {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+#contactImage {
+  width: 15%;
+  position: relative;
+  bottom: 30px;
+  right: 150px;
+}
+
+#contactTitle {
+ margin-bottom: -2%;
+ margin-top: 0;
+
+}
+
+#projectTitle {
+  
+  margin-bottom: 1%;
+  font-size: 24px;
+  
+}
+
+#newsfeed {
+  width: 50%;
+}
+
+
+
+.portfolioGrid {
+display: inline-flex;
+width: 100%;
+margin-left: 3%;
+margin-top: 15%;
+position: relative;
+}
+
+.caption {
+    color: #fff;
+    width: 80%;
+    font-size: 1.1vw;
+}
+
+.projectTitles {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2vw;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+ 
+  
+}
+
+.footerLink {
+  text-decoration: none;
+  color: white;
+}
+
+
+.gridImages {
+  margin-right: 3%;
+  padding: 5px;
+}
