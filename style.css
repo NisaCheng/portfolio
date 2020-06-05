@@ -166,19 +166,6 @@ input[type="email"] {
   color: #fff;
 }
 
-#contactImage {
-  width: 15%;
-  position: relative;
-  bottom: 30px;
-  right: 150px;
-}
-
-#contactTitle {
- margin-bottom: -2%;
- margin-top: 0;
-
-}
-
 #projectTitle {
   
   margin-bottom: 1%;
@@ -186,9 +173,7 @@ input[type="email"] {
   
 }
 
-#newsfeed {
-  width: 50%;
-}
+
 
 
 
@@ -196,7 +181,7 @@ input[type="email"] {
 display: inline-flex;
 width: 100%;
 margin-left: 3%;
-margin-top: 15%;
+margin-top: 10%;
 position: relative;
 }
 
